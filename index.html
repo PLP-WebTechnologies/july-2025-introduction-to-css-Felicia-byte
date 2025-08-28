@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CSS Basics &amp; The Box Model Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>CSS Box Model Demo</h1>
+    <nav>
+      <ul>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#examples">Examples</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="introduction">
+      <h2>What Is the Box Model?</h2>
+      <p>
+        Every HTML element is represented as a rectangular box. The Box Model
+        consists of <strong>content</strong>, <strong>padding</strong>,
+        <strong>border</strong>, and <strong>margin</strong>. Understanding how
+        these layers interact is essential for precise layout control.
+      </p>
+    </section>
+
+    <section id="features">
+      <h2>Core CSS Properties</h2>
+      <ul>
+        <li><code>margin</code>: space outside the border</li>
+        <li><code>padding</code>: space inside the border</li>
+        <li><code>border</code>: line surrounding the padding</li>
+        <li><code>background</code>: fill color or image behind content</li>
+      </ul>
+    </section>
+
+    <section id="examples">
+      <h2>Card Layout Examples</h2>
+
+      <div class="card">
+        <h3>Card One</h3>
+        <p>
+          This card has <code>padding</code> around its text, a
+          <code>border</code>, and <code>margin</code> that separates it from
+          other cards.
+        </p>
+        <button>Action</button>
+      </div>
+
+      <div class="card">
+        <h3>Card Two</h3>
+        <p>
+          Experiment with different values to see how margin and padding shift
+          the card’s position and content spacing.
+        </p>
+        <button>Learn More</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 CSS Demo. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
